@@ -1,0 +1,9 @@
+{
+  "name": "google-geocode",
+  "version": "1.0.0",
+  "description": "This package converts address to latitude,longitude and vice versa using the google api",
+  "main": "index.js",
+  "repository": "git@github.com:sonzay281/google-geocode.git",
+  "author": "Sanjaya Sapkota <sonzayspk1998@gmail.com> Twitter:@nepz_sonze",
+  "license": "MIT"
+}
