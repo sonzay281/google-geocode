@@ -61,7 +61,7 @@ class GoogleGeocode {
     return url;
   };
 
-  async fromLatLng(lat: string, lng: string) {
+  async fromLatLng({ lat, lng }: any) {
     if (!lat || !lng) {
       this.log("Provided coordinates are invalid", true);
       return Promise.reject("Provided coordinates are invalid.");
